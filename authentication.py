@@ -1,4 +1,3 @@
-# authentication.py
 
 def sign_in(password, username):
 
