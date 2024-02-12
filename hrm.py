@@ -1,4 +1,3 @@
-
 class Employee:
     def __init__(self, employee_id, name, designation, department, contact_info, appointment_date, leave_details):
         self.employee_id = employee_id
@@ -48,6 +47,7 @@ def update_personal_information(employee_id, new_contact_info, new_position, new
             break
     else:
         print("Employee not found.")
+
 
 def submit_leave_request(employee_id, leave_type, duration, details):
     # Submit leave request for the specified employee
