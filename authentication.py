@@ -1,8 +1,8 @@
+def sign_in(username, password):
+    valid_username = "admin"
+    valid_password = "password"
 
-def sign_in(password, username):
-
-    with open('credentials.txt', 'r') as file:
-        stored_username, stored_password = file.read().split(',')
-        if username == stored_username and password == stored_password:
-            return True
-    return False
+    if username == valid_username and password == valid_password:
+        return True
+    else:
+        return False
